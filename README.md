@@ -1,8 +1,18 @@
-# React + Vite
+#### 기본 환경 설정
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### 기본 extension
+1. 프르티어 설치 extension 설치
+2. React/Redux/React-Native v4.4.3 설치
+3. React Extension Pack
+4. Auto Close Tag
 
-Currently, two official plugins are available:
+#### 2. 프리티어 기본 설정
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+{
+    "printWidth": 120,
+    "tabWidth": 2,
+    "trailingComma": "all", 
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "semi": false 
+}
