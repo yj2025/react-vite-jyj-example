@@ -16,3 +16,13 @@
     "jsxSingleQuote": true,
     "semi": false 
 }
+
+#### 3.기본 실행순서
+index.html -> main.jsx -> App.jsx
+
+#### 4. Hello World 출력
+
+-------------------------------------
+### 라우터 패키지 설치
+### router 기본 뼈대 코딩
+### 부트스트랩 적용 

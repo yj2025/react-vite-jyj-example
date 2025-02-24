@@ -1,8 +1,18 @@
-import Hello from './components/Hello'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import routes from './route/Routes'
+import Header from './components/Header'
+
 function App() {
   return (
     <>
-      <Hello></Hello>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          {routes.map((route, index) => {
+            return <Route key={route.path || index} path={route.path} element={route.element}></Route>
+          })}
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
