@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
-// import Hello from '../components/Hello'
-
+import Hello from '../components/Hello'
 
 function HelloPage() {
   return (
