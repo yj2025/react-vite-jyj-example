@@ -38,3 +38,5 @@ index.html -> main.jsx -> App.jsx
 
 1번 : index.html에 CDN으로 적용하는 방법
 2번 : bootstrap 모듈로 적용하는 방법
+
+---
