@@ -5,6 +5,7 @@ import HelloPage from '../pages/HelloPage'
 import JSXPage from '../pages/JSXPage'
 import ConditionalPage from '../pages/ConditionalPage'
 import BootStrapPage from '../pages/BootStrapPage'
+import CounterPage from '../pages/CounterPage'
 
 // React Routes, Route 사용시 배열로 관리하기
 const routes = [
@@ -42,6 +43,11 @@ const routes = [
     path: '/bootStrap',
     element: <BootStrapPage />,
     title: '부트스트랩적용',
+  },
+  {
+    path: '/usestate',
+    element: <CounterPage />,
+    title: 'useState-연습',
   },
 ]
 export default routes
