@@ -6,6 +6,7 @@ import JSXPage from '../pages/JSXPage'
 import ConditionalPage from '../pages/ConditionalPage'
 import BootStrapPage from '../pages/BootStrapPage'
 import CounterPage from '../pages/CounterPage'
+import UseEffectPage from '../pages/UseEffectPage'
 
 // React Routes, Route 사용시 배열로 관리하기
 const routes = [
@@ -48,6 +49,11 @@ const routes = [
     path: '/usestate',
     element: <CounterPage />,
     title: 'useState-연습',
+  },
+  {
+    path: '/useeffect',
+    element: <UseEffectPage />,
+    title: 'useEffect-연습',
   },
 ]
 export default routes
