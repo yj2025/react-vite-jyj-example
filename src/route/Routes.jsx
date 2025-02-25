@@ -7,6 +7,7 @@ import ConditionalPage from '../pages/ConditionalPage'
 import BootStrapPage from '../pages/BootStrapPage'
 import CounterPage from '../pages/CounterPage'
 import UseEffectPage from '../pages/UseEffectPage'
+import UseRef1Page from '../pages/UseRef1Page'
 
 // React Routes, Route 사용시 배열로 관리하기
 const routes = [
@@ -54,6 +55,11 @@ const routes = [
     path: '/useeffect',
     element: <UseEffectPage />,
     title: 'useEffect-연습',
+  },
+  {
+    path: '/useref',
+    element: <UseRef1Page />,
+    title: 'useRef-1',
   },
 ]
 export default routes

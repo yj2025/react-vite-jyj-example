@@ -26,7 +26,9 @@ const UseEffectPage = () => {
   }, [])
 
   useEffect(() => {
-    console.log(`컴포넌트 변경 ${Date()}`) // 컴포넌트가 처음 랜더링 될 때만
+    // 컴포넌트가 처음 랜더링 될 때만링된 이후 실행
+    // a나 b가 변경되어 컴포넌트가 재 랜더
+    console.log(`컴포넌트 변경 ${Date()}`)
   }, [firstCount, secondCount])
 
   const firstCountHandler = () => {
