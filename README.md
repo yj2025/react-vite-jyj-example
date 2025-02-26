@@ -46,3 +46,7 @@ index.html -> main.jsx -> App.jsx
 ### 2. axios get post 기본 사용법
 
 ### 3. axios = 비동기 통신, 동기 통신
+
+async await (promise)
+
+### 4. 실전 처리
