@@ -8,6 +8,7 @@ import BootStrapPage from '../pages/BootStrapPage'
 import CounterPage from '../pages/CounterPage'
 import UseEffectPage from '../pages/UseEffectPage'
 import UseRef1Page from '../pages/UseRef1Page'
+import UseRef2Page from '../pages/UseRef2Page'
 
 // React Routes, Route 사용시 배열로 관리하기
 const routes = [
@@ -60,6 +61,11 @@ const routes = [
     path: '/useref',
     element: <UseRef1Page />,
     title: 'useRef-1',
+  },
+  {
+    path: '/useref2',
+    element: <UseRef2Page />,
+    title: 'useRef-2',
   },
 ]
 export default routes
