@@ -8,6 +8,7 @@ function HelloPage() {
       <Hello></Hello>
       <Hello></Hello>
       <Hello></Hello>
+      <Hello></Hello>
     </Fragment>
   )
 }
