@@ -12,6 +12,9 @@ import UseEffectPage from '../pages/UseEffectPage'
 import UseRef2Page from '../pages/UseRef2Page'
 import UseRef1Page from '../pages/UseRef1Page'
 import AxiosClient from '../pages/AxiosClient'
+import InputPage from '../pages/InputPage'
+import GradeInputPage from '../pages/GradeInputPage'
+import GradeInputPage2 from '../pages/GradeInputPage2'
 
 // React Routes, Route 사용시 배열로 관리하기
 const routes = [
@@ -84,6 +87,21 @@ const routes = [
     path: '/axiosclient',
     element: <AxiosClient />,
     title: 'axios-client',
+  },
+  {
+    path: '/input',
+    element: <InputPage />,
+    title: '기본-input',
+  },
+  {
+    path: '/grade',
+    element: <GradeInputPage />,
+    title: 'grade-input',
+  },
+  {
+    path: '/grade',
+    element: <GradeInputPage2 />,
+    title: 'grade-input(다중입력)',
   },
 ]
 export default routes
