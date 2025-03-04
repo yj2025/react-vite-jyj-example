@@ -18,6 +18,8 @@ import GradeInputPage2 from '../pages/GradeInputPage2'
 import InlineStylePage from '../pages/cssPage/InlineStylePage'
 import ClassNameUsePage from '../pages/cssPage/ClassNameUsePage'
 import StyledComponentPage from '../pages/cssPage/StyledComponentPage'
+import ImageSlider from '../pages/ImageSlider'
+import ContextNotusePage from '../pages/ContextNotusePage'
 
 // React Routes, Route 사용시 배열로 관리하기
 const routes = [
@@ -120,6 +122,16 @@ const routes = [
     path: '/style-css',
     element: <StyledComponentPage />,
     title: 'styled-components',
+  },
+  {
+    path: '/ImageSlider',
+    element: <ImageSlider />,
+    title: '이미지 슬라이더',
+  },
+  {
+    path: '/contextnotuse',
+    element: <ContextNotusePage />,
+    title: '컨텍스트API-사용안함',
   },
 ]
 export default routes
