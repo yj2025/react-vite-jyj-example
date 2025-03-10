@@ -1,25 +1,6 @@
 import HomePage from '../pages/HomePage'
-import ProfilePage from '../pages/ProfilePage'
-import BoardPage from '../pages/BoardPage'
-import HelloPage from '../pages/HelloPage'
-import JSXPage from '../pages/JSXPage'
-import ConditionalPage from '../pages/ConditionalPage'
-import BootStrapPage from '../pages/BootStrapPage'
-import AxiosGetPage from '../pages/AxiosGetPage'
-import PropsPage from '../pages/PropsPage'
-import CounterPage from '../pages/CounterPage'
-import UseEffectPage from '../pages/UseEffectPage'
-import UseRef2Page from '../pages/UseRef2Page'
-import UseRef1Page from '../pages/UseRef1Page'
-import AxiosClient from '../pages/AxiosClient'
-import InputPage from '../pages/InputPage'
-import GradeInputPage from '../pages/GradeInputPage'
-import GradeInputPage2 from '../pages/GradeInputPage2'
-import InlineStylePage from '../pages/cssPage/InlineStylePage'
-import ClassNameUsePage from '../pages/cssPage/ClassNameUsePage'
-import StyledComponentPage from '../pages/cssPage/StyledComponentPage'
 import ImageSlider from '../pages/ImageSlider'
-import ContextNotusePage from '../pages/ContextNotusePage'
+import NaverMap from '../pages/NaverMap'
 
 // React Routes, Route 사용시 배열로 관리하기
 const routes = [
@@ -28,110 +9,16 @@ const routes = [
     element: <HomePage />,
     title: 'Home',
   },
-  {
-    path: '/profile',
-    element: <ProfilePage />,
-    title: 'profile',
-  },
-  {
-    path: '/board',
-    element: <BoardPage />,
-    title: 'board',
-  },
-  {
-    path: '/hello',
-    element: <HelloPage />,
-    title: 'hello',
-  },
-  {
-    path: '/jsx',
-    element: <JSXPage />,
-    title: 'jsx문법',
-  },
-  {
-    path: '/conditional',
-    element: <ConditionalPage />,
-    title: '조건부랜더링',
-  },
-  {
-    path: '/bootstrap',
-    element: <BootStrapPage />,
-    title: '부트스트랩적용',
-  },
-  {
-    path: '/props',
-    element: <PropsPage />,
-    title: '프롭스',
-  },
-  {
-    path: '/usestate',
-    element: <CounterPage />,
-    title: 'useState-연습',
-  },
-  {
-    path: '/useeffect',
-    element: <UseEffectPage />,
-    title: 'useEffect-연습',
-  },
-  {
-    path: '/useref',
-    element: <UseRef1Page />,
-    title: 'useRef-1',
-  },
-  {
-    path: '/useref2',
-    element: <UseRef2Page />,
-    title: 'useRef-2',
-  },
-  {
-    path: '/axiosget',
-    element: <AxiosGetPage />,
-    title: 'axios-get',
-  },
-  {
-    path: '/axiosclient',
-    element: <AxiosClient />,
-    title: 'axios-client',
-  },
-  {
-    path: '/input',
-    element: <InputPage />,
-    title: '기본-input',
-  },
-  {
-    path: '/grade',
-    element: <GradeInputPage />,
-    title: 'grade-input',
-  },
-  {
-    path: '/grade',
-    element: <GradeInputPage2 />,
-    title: 'grade-input(다중입력)',
-  },
-  {
-    path: '/styled-css',
-    element: <InlineStylePage />,
-    title: '인라인-스타일',
-  },
-  {
-    path: '/use-css',
-    element: <ClassNameUsePage />,
-    title: 'css파일적용',
-  },
-  {
-    path: '/style-css',
-    element: <StyledComponentPage />,
-    title: 'styled-components',
-  },
+  
   {
     path: '/ImageSlider',
     element: <ImageSlider />,
     title: '이미지 슬라이더',
   },
   {
-    path: '/contextnotuse',
-    element: <ContextNotusePage />,
-    title: '컨텍스트API-사용안함',
+    path: '/NaverMap',
+    element: <NaverMap />,
+    title: '네이버 맵',
   },
 ]
 export default routes
