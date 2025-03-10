@@ -1,11 +1,15 @@
 import React from 'react'
 
 const ContextNotusePage = () => {
-  return <div>12</div>
+  return (
+    <div>
+      <GrandParent style='color:red' value='안녕하세요'></GrandParent>
+    </div>
+  )
 }
 
-function GrandParent({ value }) {
-  return <Parent value={value} />
+function GrandParent(props) {
+  return <Parent value={props.value} />
 }
 
 function Parent({ value }) {

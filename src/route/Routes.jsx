@@ -20,6 +20,10 @@ import ClassNameUsePage from '../pages/cssPage/ClassNameUsePage'
 import StyledComponentPage from '../pages/cssPage/StyledComponentPage'
 import ImageSlider from '../pages/ImageSlider'
 import ContextNotusePage from '../pages/ContextNotusePage'
+import ContextUsedPage from '../pages/ContextUsedPage'
+import CounterContextPage from '../pages/CounterContextPage'
+import { CounterProvider } from '../contexts/CounterContext'
+import NaverMap from '../pages/NaverMap'
 
 // React Routes, Route 사용시 배열로 관리하기
 const routes = [
@@ -129,9 +133,30 @@ const routes = [
     title: '이미지 슬라이더',
   },
   {
+    path: '/navermap',
+    element: <NaverMap />,
+    title: '네이버 맵',
+  },
+  {
     path: '/contextnotuse',
     element: <ContextNotusePage />,
     title: '컨텍스트API-사용안함',
+  },
+  {
+    path: '/contextuse',
+    element: <ContextUsedPage />,
+    title: '컨텍스트API-사용',
+  },
+  {
+    path: '/contextapply',
+    element: (
+      <CounterProvider>
+        <div>머리말</div>
+        <CounterContextPage />
+        <div>꼬리말</div>
+      </CounterProvider>
+    ),
+    title: '컨텍스트-API-활용-카운터',
   },
 ]
 export default routes
