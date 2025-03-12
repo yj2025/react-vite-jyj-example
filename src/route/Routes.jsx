@@ -23,7 +23,7 @@ import ContextNotusePage from '../pages/ContextNotusePage'
 import ContextUsedPage from '../pages/ContextUsedPage'
 import CounterContextPage from '../pages/CounterContextPage'
 import { CounterProvider } from '../contexts/CounterContext'
-import NaverMap from '../pages/NaverMap'
+import NaverMap from './../pages/NaverMap'
 
 // React Routes, Route 사용시 배열로 관리하기
 const routes = [
